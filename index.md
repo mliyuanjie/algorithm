@@ -1,5 +1,5 @@
 ##find and replace pattern
-(''')
+(```)
 class Solution {
 public:
     vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
@@ -30,10 +30,10 @@ public:
         }
     
 };
-(''')
+(```)
 ----
 ##unique paths iii
-(''')
+(```)
 class Solution {
 public:
     int ROW;
@@ -80,5 +80,5 @@ public:
                 
         }
 };
-(''')
+(```)
 ----
