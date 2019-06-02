@@ -93,3 +93,19 @@ public:
 };
 ```
 ----
+# binary tree pruning  
+**递归**
+*1.递归函数应该有返回值</br>2.先左右赋值再删除-这个有点懵圈
+```
+class Solution {
+public:
+    TreeNode* pruneTree(TreeNode* root) {
+        if(!root) return nullptr;
+        root->left=pruneTree(root->left);
+        root->right=pruneTree(root->right);
+        if(root->val==0 && !root->left && !root->right){delete root;return nullptr;}
+        return root;
+    }
+
+};
+```
