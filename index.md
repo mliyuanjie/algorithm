@@ -41,7 +41,8 @@ public:
 **dfs and recursion,two functions dfs and pathiii**  
 *pathiii: find the start point and the longest path*  
 *dfs: recursion implement </br>basic case: edge and -1 or 2(if longest path result++)</br> then four direction*  
-*so the problem is how to define the longest path and avoid repeat visit. if we visit a point longest-- and replace by -1.</b>after that longest++ replace by 0
+*so the problem is how to define the longest path and avoid repeat visit. *  
+*if we visit a point longest-- and replace by -1.</b>after that longest++ replace by 0*
 ```
 class Solution {
 public:
