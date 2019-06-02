@@ -1,7 +1,7 @@
 # find and replace pattern
 ----
-**two functions->match and mainloop 
-*mainloop: vector ans to storage the result 
+**two functions->match and mainloop**
+*mainloop: vector ans to storage the result*
 ```
 class Solution {
 public:
