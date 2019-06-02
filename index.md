@@ -1,7 +1,9 @@
 # find and replace pattern
 ----
-**two functions->match and mainloop**
-*mainloop: vector ans to storage the result*
+**two functions->match and mainloop**  
+*mainloop: vector ans to store the result*  
+*match: two dict to store the pattern and words's char hashmap*  
+*add char to the map, check if 1 to 1map*
 ```
 class Solution {
 public:
