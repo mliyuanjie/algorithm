@@ -1,4 +1,4 @@
-##find and replace pattern
+# find and replace pattern
 ```
 class Solution {
 public:
@@ -32,7 +32,7 @@ public:
 };
 ```
 ----
-##unique paths iii
+# unique paths iii
 ```
 class Solution {
 public:
