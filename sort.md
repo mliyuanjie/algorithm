@@ -77,6 +77,6 @@ void Sort::heapsort(int s,int e){
 }
 ```
 ## 速度提升方案
-**小于1000000的merge排序，大于的先拆分然后归并 veryfast stl---2s fast---1.5s 10000000point**
+**小于1000000的quick排序，大于的先拆分然后归并 veryfast stl---2s fast---1.5s 10000000point**
 [排序实现](结构算法/sort.cpp)
 
