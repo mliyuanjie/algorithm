@@ -4,11 +4,13 @@
 *2.红节点的父节点为黑色《红节点不能相邻》*  
 *3.黑色节点树高度一样《把红色节点向上合并，得到的黑色树高度完全等长，类似于2，3，4-tree》*  
 
----
+---  
+
 **2.插入**  
 *1.待插入节点Q为红色*  
 *2.如果Q的父节点P为黑色，则返回，若红色则调整*  
 *3.如果P的另一个儿子N是红色，则向Q方向旋转，新P变红，旧P变黑，P=Q返回2步骤*  
+
 ---
 ![case1](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Red-black_tree_insert_case_3.svg/400px-Red-black_tree_insert_case_3.svg.png)  
 ---
@@ -16,7 +18,8 @@
 *5.如果Q是顺子，则向右转，调整颜色就可以返回，如果Q是逆子，则double旋转，然后调整颜色返回*   
 ![case2](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Red-black_tree_insert_case_4.svg/400px-Red-black_tree_insert_case_4.svg.png)  
 ![case3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Red-black_tree_insert_case_5.svg/400px-Red-black_tree_insert_case_5.svg.png)
----
+---  
+
 **3.删除**  
 *1.把待删除的点全部带颜色替换为最多一个儿子的点*  
 *2.删除，如果颜色红色返回，如果少了黑色，继续。记录少黑色节点的子树为N*    
